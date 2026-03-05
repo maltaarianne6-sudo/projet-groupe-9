@@ -56,6 +56,8 @@ body, html {
 }
 
 .cta-button {
+    display: inline-block;    /* Permet de gérer la taille et les marges du lien */
+    text-decoration: none;
     background-color: #ff0000;
     color: white;
     border: none;
