@@ -4,7 +4,7 @@ body, html {
     font-family: sans-serif;
     /* Si vous avez une image de fond, décommentez la ligne suivante */
     /* background-image: url('background.png'); */
-    background-color: #5a5a5a; /* Couleur de repli si l'image n'est pas là */
+     background: url('image/background.png') no-repeat center center;
     background-size: cover;
     background-position: center;
     color: white;
