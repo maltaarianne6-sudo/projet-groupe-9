@@ -1,36 +1,91 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foot Locker - Surprise</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <div class="main-container">
-        <nav class="top-nav">
-            <div class="nav-left">
-                <span class="arrow">&larr;</span>
-                <span class="arrow">&rarr;</span>
-            </div>
-            <div class="nav-right">
-                <span class="close-icon">&times;</span>
-            </div>
-        </nav>
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Empêche le défilement */
+    font-family: 'Times New Roman', serif;
+}
 
-        <div class="center-content">
-            <img src="image/logo.png" alt="Foot Locker" class="logo">
-            
-            <div class="instruction-box">
-                <p>Gratte dessus pour découvrir ta surprise</p>
-            </div>
+.main-container {
+    width: 100%;
+    height: 100vh;
+    /* Ton image de fond enregistrée */
+    background: url('image/background.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
 
-            <div class="interactive-area">
-                <img src="image/boite.png" alt="Boîte" class="box-image">
-            </div>
-        </div>
-    </div>
+/* Navigation du haut */
+.top-nav {
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
 
-</body>
-</html>
+.nav-left .arrow {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.close-icon {
+    cursor: pointer;
+}
+
+/* Positionnement du contenu au milieu */
+.center-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+    z-index: 5;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+/* Le rectangle avec le texte "Gratte dessus..." */
+.instruction-box {
+    border: 2px solid #8e44ad; /* Violet comme sur l'image */
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    max-width: 300px;
+}
+
+/* La boîte */
+.interactive-area {
+    margin-top: 20px;
+}
+
+.box-image {
+    width: 320px; /* Ajuste la taille selon ton envie */
+    height: auto;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
+    transition: transform 0.3s ease;
+}
+
+.box-image:hover {
+    transform: scale(1.05);
+}
