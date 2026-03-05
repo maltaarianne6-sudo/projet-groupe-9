@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot Locker - Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <nav class="top-nav">
+            <div class="nav-left">
+                <span class="arrow">&larr;</span>
+                <span class="arrow">&rarr;</span>
+            </div>
+            <div class="nav-right">
+                <span class="close-icon">&times;</span>
+            </div>
+        </nav>
+
+        <div class="center-content">
+            <img src="image/logo.png" alt="Foot Locker" class="logo">
+            
+            <div class="instruction-box">
+                <p>Gratte dessus pour découvrir ta surprise</p>
+            </div>
+
+            <div class="interactive-area">
+                <img src="image/boite.png" alt="Boîte" class="box-image">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
