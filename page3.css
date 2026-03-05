@@ -23,18 +23,7 @@ body, html {
     position: relative;
 }
 
-/* Navigation du haut */
-.top-nav {
-    width: 100%;
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-}
+
 
 
 
@@ -57,7 +46,7 @@ body, html {
 
 /* Le rectangle avec le texte "Gratte dessus..." */
 .instruction-box {
-    border: 2px solid #8e44ad; /* Violet comme sur l'image */
+    
     padding: 15px 25px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
@@ -69,11 +58,11 @@ body, html {
 
 /* La boîte */
 .interactive-area {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .box-image {
-    width: 320px; /* Ajuste la taille selon ton envie */
+    width: 500px; /* Ajuste la taille selon ton envie */
     height: auto;
     filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
     transition: transform 0.3s ease;
