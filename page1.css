@@ -13,18 +13,16 @@ body, html {
 .container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('image/background.png') no-repeat center center;
+    background-image: url('image/background.png');
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
     padding: 2rem;
 }
 
 .content {
     position: absolute;
-    flex: 1;
+    top: 3%; 
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +54,7 @@ body, html {
 }
 
 .cta-button {
-    display: inline-block;    /* Permet de gérer la taille et les marges du lien */
+    display: inline-block;   
     text-decoration: none;
     background-color: #ff0000;
     color: white;
