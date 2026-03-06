@@ -43,7 +43,7 @@ header {
     z-index: 2;
 }
 
-..nav-arrows span, .close-button span {
+.nav-arrows span, .close-button span {
     font-size: 2em;
     cursor: pointer;
 }
