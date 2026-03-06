@@ -17,3 +17,30 @@ body, html {
     padding: 2rem;
 }
 
+.content {
+    position: absolute;
+    top: 3%; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.logo {
+    position: relative;
+    margin-bottom: 100px;
+    max-width: 200px; 
+    height: auto;
+}
+
+.subtitle {
+    font-family: 'Georgia', serif; 
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-style: italic;
+    margin-bottom: 3rem;
+}
