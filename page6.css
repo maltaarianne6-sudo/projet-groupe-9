@@ -60,7 +60,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 1;
-    height: calc(85% - 100px); /* Ajuste la hauteur pour centrer verticalement */
+    height: calc(100% - 150px); /* Ajuste la hauteur pour centrer verticalement */
 }
 
 .logo {
@@ -68,15 +68,11 @@ header {
     margin-bottom: 10px;
 }
 
-.title {
-    color: #d9534f; /* Rouge Foot Locker */
-    font-size: 2.5em;
-    margin: 0;
-    font-weight: bold;
-}
+
 
 .message-box {
-    background-color: rgba(0, 0, 0, 0.7);
+
+    
     padding: 15px 25px;
     margin-top: 30px;
     border-radius: 5px;
@@ -87,6 +83,7 @@ header {
     font-size: 1.8em;
 }
 
+
 .message-box p {
     margin: 10px 0 0;
     font-size: 1.1em;
@@ -94,9 +91,9 @@ header {
 
 /* Style pour l'image de la boîte vide */
 .empty-box-image {
-    width: 30px; /* Ajustez la taille si nécessaire */
-    margin-top: 15px; /* Espace au-dessus de l'image */
-    margin-bottom: 15px; /* Espace entre la boîte et le bouton */
+    width: 200px; /* Ajustez la taille si nécessaire */
+    margin-top: 20px; /* Espace au-dessus de l'image */
+    margin-bottom: 5px; /* Espace entre la boîte et le bouton */
 }
 
 
@@ -108,7 +105,7 @@ header {
     border-radius: 50px; /* Bords très arrondis */
     font-size: 1.5em;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
 }
