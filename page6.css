@@ -94,7 +94,7 @@ header {
 
 /* Style pour l'image de la boîte vide */
 .empty-box-image {
-    width: 250px; /* Ajustez la taille si nécessaire */
+    width: 150px; /* Ajustez la taille si nécessaire */
     margin-top: 30px; /* Espace au-dessus de l'image */
     margin-bottom: 20px; /* Espace entre la boîte et le bouton */
 }
