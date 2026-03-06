@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(image/background.png) no-repeat center center;
+     background: url('image/background.png') no-repeat center center;
     overflow: hidden;
 }
 
