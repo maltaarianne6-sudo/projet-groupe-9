@@ -43,7 +43,7 @@ header {
     z-index: 2;
 }
 
-.nav-arrows span, .close-button span {
+..nav-arrows span, .close-button span {
     font-size: 2em;
     cursor: pointer;
 }
@@ -66,7 +66,6 @@ header {
 .logo {
     width: 100px;
     margin-bottom: 10px;
-     margin-bottom: 20px;
 }
 
 .title {
@@ -77,7 +76,7 @@ header {
 }
 
 .message-box {
-
+    border: 2px solid #8a2be2; /* Bordure violette */
     padding: 15px 25px;
     margin-top: 30px;
     border-radius: 5px;
@@ -93,6 +92,13 @@ header {
     font-size: 1.1em;
 }
 
+/* Style pour l'image de la boîte vide */
+.empty-box-image {
+    width: 250px; /* Ajustez la taille si nécessaire */
+    margin-top: 30px; /* Espace au-dessus de l'image */
+    margin-bottom: 20px; /* Espace entre la boîte et le bouton */
+}
+
 .play-button {
     background-color: #ff0000; /* Rouge vif */
     color: white;
@@ -101,7 +107,7 @@ header {
     border-radius: 50px; /* Bords très arrondis */
     font-size: 1.5em;
     font-weight: bold;
-    margin-top: 40px;
+    /* La marge du dessus est maintenant gérée par la marge du bas de l'image */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
 }
