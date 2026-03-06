@@ -44,3 +44,12 @@ body, html {
     font-style: italic;
     margin-bottom: 3rem;
 }
+
+.box.scratch-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    cursor: crosshair;
+}
+

@@ -50,15 +50,12 @@ body, html {
 .grid {
 
     display: grid;
-    /* Crée 3 colonnes de taille égale */
     grid-template-columns: repeat(3, 1fr); 
-    /* Espace entre les boîtes */
     gap: 40px; 
     width: 100%;
     max-width: 700px;
 }
 
-/* Style de chaque boîte */
 .box {
     display: flex;
     justify-content: center;
