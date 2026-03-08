@@ -44,6 +44,7 @@ body, html {
     font-size: clamp(1rem, 2vw, 1.5rem);
     font-style: italic;
     margin-bottom: 3rem;
+    color: white;
 }
 
 .form-container {
@@ -51,5 +52,23 @@ body, html {
     flex-direction: column;
     align-items: center;
     gap: 20px; 
+}
+
+.form-container input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.CTA {
+    display: inline-block;   
+    text-decoration: none;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
