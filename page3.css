@@ -7,7 +7,7 @@
 body, html {
     width: 100%;
     height: 100%;
-    overflow: hidden; /* Empêche le défilement */
+    overflow: hidden; 
     font-family: 'Times New Roman', serif;
 }
 
@@ -27,7 +27,7 @@ body, html {
 
 
 
-/* Positionnement du contenu au milieu */
+
 .center-content {
     margin-top: 50px;
     display: flex;
@@ -44,11 +44,11 @@ body, html {
     height: auto;
 }
 
-/* Le rectangle avec le texte "Gratte dessus..." */
+
 .instruction-box {
     
     padding: 15px 25px;
-    
+
     color: white;
     text-align: center;
     font-weight: bold;
@@ -56,7 +56,7 @@ body, html {
     max-width: 300px;
 }
 
-/* La boîte */
+
 .interactive-area {
     margin-top: 60px;
 }
