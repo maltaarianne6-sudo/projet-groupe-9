@@ -59,7 +59,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 1;
-    height: calc(100% - 150px); /* Ajuste la hauteur pour centrer verticalement */
+    height: calc(100% - 150px); 
 }
 
 .logo {
