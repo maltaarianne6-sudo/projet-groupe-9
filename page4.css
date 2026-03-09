@@ -10,16 +10,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-     background: url('image/background.png') no-repeat center center;
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url('image/background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
-.background-container {
-    width: 100%;
-    max-width: 600px;
-    padding: 20px;
-    text-align: center;
-}
 
 .logo-wrapper {
     margin-bottom: 20px;
@@ -30,6 +31,7 @@ body {
     margin-bottom: 60px;
     max-width: 90px; 
     height: auto;
+    justify-content: center;
 }
 
 .main-title {
