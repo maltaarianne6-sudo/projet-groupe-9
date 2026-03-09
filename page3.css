@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    font-family: 'Times New Roman', serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+
+    background: url('image/background.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+
+
+.center-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+    z-index: 5;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+
+.instruction-box {
+    
+    padding: 15px 25px;
+
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    max-width: 300px;
+}
+
+
+.interactive-area {
+    margin-top: 60px;
+}
+
+.box-image {
+    width: 500px; 
+    height: auto;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
+    transition: transform 0.3s ease;
+}
+
+.box-image:hover {
+    transform: scale(1.05);
+}

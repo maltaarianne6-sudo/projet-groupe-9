@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background: url('image/background.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    overflow: hidden; 
+    position: relative;
+}
+
+.background-blur {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 500px;
+    height: 500px;
+     background: url('image/background.png') no-repeat center center;
+    filter: blur(50px);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-arrows span, .close-button span {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.nav-arrows span:first-child {
+    margin-right: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 100px; 
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #d9534f;
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.gift-container {
+    margin-top: 30px;
+    position: relative;
+}
+
+.gift-image {
+    max-width: 300px; 
+    height: auto;
+}
