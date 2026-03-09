@@ -11,7 +11,7 @@ body, html {
     position: relative;
 }
 
-/* Effets de lumière floue */
+
 .background-blur {
     position: absolute;
     width: 500px;
